@@ -5,6 +5,7 @@ Static legal pages for Dr.Speak.
 - Privacy Policy URL: https://soo-kate-yeon.github.io/drspeak-legal/privacy.html
 - Terms URL: https://soo-kate-yeon.github.io/drspeak-legal/terms.html
 - Refund Policy URL: https://soo-kate-yeon.github.io/drspeak-legal/refund.html
+- Hosted source repository: https://github.com/soo-kate-yeon/drspeak-legal
 
 ## Hosting
 
@@ -17,10 +18,17 @@ https://soo-kate-yeon.github.io/drspeak-legal/
 
 ## Review Notes
 
+Operator details currently reflected in the pages:
+
+- Business name: 모락
+- Business registration number: 465-21-02189
+- Representative: 김수연
+- Address: 인천광역시 연수구 아트센터대로 97번길 30
+- Phone: 010-9454-2294
+- Email: soo.kate.yeon@gmail.com
+
 Before production launch, confirm and update:
 
-- Legal operator name, business registration details, representative, address,
-  and production support email.
 - Actual Supabase region and subprocessors.
 - Actual OpenAI/Azure retention and data processing terms in the production
   contracts.
