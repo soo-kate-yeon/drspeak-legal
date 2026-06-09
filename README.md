@@ -32,6 +32,10 @@ Before production launch, confirm and update:
 - Actual Supabase region and subprocessors.
 - Actual OpenAI/Azure retention and data processing terms in the production
   contracts.
+- Account deletion path must remain available in-app:
+  Profile and Settings > Account > Delete Account.
+- Recording deletion path must remain available in-app:
+  Profile and Settings > Privacy/Data > Delete all recordings.
 - Whether paid products are sold through Apple, Google, direct web checkout, or
   not sold at all.
 - Actual data retention automation matches the periods written in the policy.
