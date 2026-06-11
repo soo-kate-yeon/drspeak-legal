@@ -42,7 +42,7 @@ a {
 .wrap {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 0 22px;
+  padding: 0 clamp(32px, 8vw, 44px);
 }
 
 .nav {
@@ -165,7 +165,7 @@ li {
 }
 
 .doc {
-  padding: 0 0 60px;
+  padding-bottom: 60px;
 }
 
 .toc {
@@ -230,7 +230,8 @@ tr:last-child td {
   .nav {
     align-items: flex-start;
     flex-direction: column;
-    padding: 18px 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
 
   .summary-grid {
